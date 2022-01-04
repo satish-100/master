@@ -1,4 +1,4 @@
-//Create variables to reference and store canvas 
+//Create variables to reference and store canva 
 let canvas = document.getElementById('mycanvas');
 let ctx = canvas.getContext('2d');
 let ballRadius = 10;
@@ -7,7 +7,7 @@ let y = canvas.height - 30;
 let dx = 2;
 let dy = -2;
 //create the paddle
-let paddleHeight = 12;
+    let paddleHeight = 12;
 let paddleWidth = 72;
 //specify starting point of paddle
 let paddleX = (canvas.width-paddleWidth)/2;
